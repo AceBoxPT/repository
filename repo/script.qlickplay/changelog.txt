@@ -1,0 +1,27 @@
+v1.0.2
+- Testing
+
+v1.0.1
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Added TVMaze
+- Added option to open widgetcontent in script interface
+- Removed RottenTomatoes
+- Replaced Trakt images with TMDb
+
+v1.0.0
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Forked from Extended Info Script by phil65
+- Added info=pathplay and set that to be path for all movies, episodes & videos
+- Added parameters to pathplay that are changeable on the fly and can be overridden
+- Added setion to the plugin-entry (tvtotal & yt: videos, playlist & channels )
+- Added themecolors
+- Added trailer button
+- Changed layout so now users can move from top to bottom and vice versa
+- Changed layout to show seasons/sets first
+- Filter button always visible
+- Integrated [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] for playback & library
+- Removed original title from filter options
+- Rotten tomatoes: added high resolution posters
+- Rotten tomatoes: added fanart
+- Trakt: changed airing to aired yesterday
+- Trakt: changed premiered to premiered last week
