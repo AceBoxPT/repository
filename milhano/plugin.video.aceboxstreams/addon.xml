@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.aceboxstreams"
- name="ACEBOX STREAMS"
- version="0.0.9"
- provider-name="MikeAngel">
+		name="ACEBOX STREAMS"
+		version="0.0.9"
+		provider-name="MikeAngel">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
