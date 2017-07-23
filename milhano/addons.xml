@@ -268,9 +268,9 @@ em procura livre na internet.
 
 <addon id="repositorio.milhano" name="[COLOR yellow]repositorio[/COLOR] [COLOR blue]M[/COLOR][COLOR red]ilhano[/COLOR]" version="1.0" provider-name="Milhano">
 	<extension point="xbmc.addon.repository" name="Repositorio Milhano">
-		<info compressed="false">https://github.com/AceBoxPT/teamrepository/raw/master/milhano/addons.xml</info>
-		<checksum>https://github.com/AceBoxPT/teamrepository/raw/master/milhano/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/AceBoxPT/teamrepository/raw/master/milhano/</datadir>
+		<info compressed="false">https://github.com/AceBoxPT/repository/raw/master/milhano/addons.xml</info>
+		<checksum>https://github.com/AceBoxPT/repository/raw/master/milhano/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/AceBoxPT/repository/raw/master/milhano/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Milhano Repo</summary>
