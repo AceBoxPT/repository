@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.acebox" name="AceBox Repo" version="2.2" provider-name="MikeAngel">
+	<extension point="xbmc.addon.repository" name="MikeAngel">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/</datadir>
+		</dir>
+		<dir>
+	        <info compressed="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano</datadir>
+		</dir>
+		
+		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AceBox Repo</summary>
+		<description>Visit www.acebox.pt and become a part of our great family!</description>
+		<platform>all</platform>
+	</extension>
+</addon>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.apocalypse" version="1.3" name="[B][COLOR red]A[/COLOR][COLOR orange]po[/COLOR][COLOR yellow]ca[/COLOR][COLOR white]lypse[/COLOR][/B]" provider-name="[COLOR silver]Team j2mf4[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR red]Apocalypse[/COLOR]</summary>
+		<description lang="en">[COLOR white]Team j2mf4[/COLOR] 
+[COLOR orange]You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation,[/COLOR]
+
+[COLOR orange]Disclaimer:[/COLOR]
+ 
+[COLOR white]The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider[/COLOR]</description>
+		<disclaimer lang="en">[COLOR lightcyan]The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<news>[COLOR deepblue]Enjoy the Future and Share[/COLOR]</news>
+	</extension>
+</addon>
