@@ -15,7 +15,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aceboxstreams" name="ACEBOX STREAMS" version="0.0.9" provider-name="MikeAngel">
+<addon id="plugin.video.aceboxstreams"
+ name="ACEBOX STREAMS"
+ version="0.0.9"
+ provider-name="MikeAngel">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
