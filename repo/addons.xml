@@ -92,7 +92,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.apocalypse" version="1.4" name="[B][COLOR red]A[/COLOR][COLOR orange]po[/COLOR][COLOR yellow]ca[/COLOR][COLOR white]lypse[/COLOR][/B]" provider-name="[COLOR silver]MikeAngel[/COLOR]">
+<addon id="plugin.video.apocalypse" version="1.5" name="[B][COLOR red]A[/COLOR][COLOR orange]po[/COLOR][COLOR yellow]ca[/COLOR][COLOR white]lypse[/COLOR][/B]" provider-name="MikeAngel">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
