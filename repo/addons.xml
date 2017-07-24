@@ -524,16 +524,16 @@ O addon apenas inclui streams oficiais.</description>
   </extension>
 </addon>
 
-<addon id="repository.acebox" name="AceBoxPT Repo" version="2.0" provider-name="aceboxpt">
-	<extension point="xbmc.addon.repository" name="Repository AceBoxPT">
-		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/</datadir>
+<addon id="discave.repo" name="DiscaveHB Repositorio" version="0.0.5" provider-name="Discave">
+	<extension point="xbmc.addon.repository" name="Discave Repositorio">
+		<info compressed="false">http://raw.github.com/discave/discave.repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/discave/discave.repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/discave/discave.repo/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>AceBox Repo</summary>
-		<description>Repositorio AceBox</description>
-		<disclaimer>www.acebox.pt</disclaimer>
+		<summary>DiscaveHB Repo</summary>
+		<description>DiscaveHB Repositorio</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
