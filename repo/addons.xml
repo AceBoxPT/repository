@@ -60,35 +60,6 @@
   </extension>
 </addon>
 
-<addon
-	id="plugin.video.arenavisionezy"
-	name="ArenaVision EZY"
-	version="5.3.8"
-	provider-name="Wazzu">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="program.plexus" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>ArenaVision EZY</summary>
-		<description>Interfaz para ArenaVision</description>
-		<platform>all</platform>
-		<license/>
-		<forum/>
-		<website/>
-		<email>egrueda@gmail.com</email>
-		<source/>
-	</extension>
-	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
-		<info compressed="false">https://avezy.tk/repo/addons.xml</info>
-		<checksum>https://avezy.tk/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://avezy.tk/repo/zip/</datadir>
-	</extension>
-</addon>
-
 <addon id="plugin.video.bob" name="Bob" version="1.3.16" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -183,54 +154,21 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.2.3"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
+
+
     <extension point="xbmc.addon.metadata">
         <summary>f4mTester</summary>
         <description></description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.kodimalikload"
-       name="[COLOR lawngreen][B]Kodi[/B][/COLOR][COLOR white][B]Malik[/B][/COLOR][COLOR blue][B]Load[/B][/COLOR]"
-       version="1.0"
-       provider-name="[COLOR cyan][B]MikeAngel[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>KodiMalik Load</summary>
-    <description>
-        Este addon foi modificado por Mike Angel para ser usado pelo KodiMalik
-
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.live.RSIPTV"
@@ -597,6 +535,19 @@ O addon apenas inclui streams oficiais.</description>
 	</extension>
 </addon>
 
+<addon id="repository.jesusboxtv" name="Jesusbox Repository" version="1.0.3" provider-name="Playonmonkey">
+	<extension point="xbmc.addon.repository" name="Jesusbox Repository">
+		<info compressed="false">https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jesusboxrepo/repository/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
+		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.1" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
 		<dir>
@@ -628,6 +579,50 @@ O addon apenas inclui streams oficiais.</description>
 		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.poseidon" name="Poseidon Repo" version="1.0.1" provider-name="Soulless">
+	<extension point="xbmc.addon.repository" name="Poseidon Repo">
+		<info compressed="false">https://raw.githubusercontent.com/S0u77eSS/noreviews/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/S0u77eSS/noreviews/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/S0u77eSS/noreviews/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Poseidon Repo</summary>
+		<description>Download and install Poseidon</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.wolfpack" name="[B][COLOR ghostwhite]W[/COLOR][COLOR red]OLFPAC[/COLOR][COLOR ghostwhite]K[/COLOR][/B]" version="1.2" provider-name="Wolfpack">
+	<extension point="xbmc.addon.repository" name="[B][COLOR ghostwhite]W[/COLOR][COLOR red]OLFPAC[/COLOR][COLOR ghostwhite]K[/COLOR][/B]">
+		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/wolfpackrepo/files/addons.xml</info>
+		<checksum>http://wolfpackcrew.co.uk/seeddata/wolfpackrepo/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://wolfpackcrew.co.uk/seeddata/wolfpackrepo/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>This is the wolfpack repo, where you can get access to the wolfpack addon</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.elysium.artwork" version="2017.06.27" name="Elysium Artwork" provider-name="Elysium">

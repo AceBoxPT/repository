@@ -1,1 +1,0 @@
-[{"url": "https://pastebin.com/raw/izkX4NpE", "fanart": ".\\fanart.jpg", "title": "KodiMalikLoad"}]
