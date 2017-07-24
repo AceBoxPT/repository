@@ -1,0 +1,18 @@
+[B]1.0.5[/B]
+- Fixed Putlocker
+- Fixed Genre Images
+- Removed MetalliQ Block Code
+
+[B]1.0.3[/B]
+- Removed Code
+- Updated Artwork (Compressed Images)
+
+[B]1.0.2[/B]
+- Fixed Lists
+
+[B]1.0.1[/B]
+- Added Lists
+- Removed Dead Scrapers
+
+[B]1.0.0[/B]
+- Initial version

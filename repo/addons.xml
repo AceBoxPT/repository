@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="discave.repo" name="DiscaveHB Repositorio" version="0.0.5" provider-name="Discave">
-	<extension point="xbmc.addon.repository" name="Discave Repositorio">
-		<info compressed="false">http://raw.github.com/discave/discave.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/discave/discave.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/discave/discave.repo/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>DiscaveHB Repo</summary>
-		<description>DiscaveHB Repositorio</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.program.AceBoxWIZARD" name="AceBox Wizard" version="0.7" provider-name="AceBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -299,6 +285,35 @@ em procura livre na internet.!!
 		<platform>all</platform>
 		<forum>n/a</forum>
 		<website>n/a</website>
+	</extension>
+</addon>
+
+<addon id="plugin.video.poseidon" version="1.0.7" name=" Poseidon" provider-name="Soulless">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.poseidon.artwork" version="1.0.0" />
+		<import addon="script.poseidon.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="poseidon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Poseidon</summary>
+		<description lang="en">The Ultimate Movie, TV Show, and Playlist Add-on</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
 	</extension>
 </addon>
 
