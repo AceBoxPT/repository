@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.acebox" name="AceBox Repo" version="2.0" provider-name="AceBoxPT">
+<addon id="repository.acebox" name="AceBoxPT Repo" version="2.0" provider-name="aceboxpt">
 	<extension point="xbmc.addon.repository" name="Repository AceBoxPT">
 		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
