@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="discave.repo" name="DiscaveHB Repositorio" version="0.0.5" provider-name="Discave">
+<addon id="acebox.repo" name="AceBox Repositorio" version="2.1" provider-name="AceBox">
 	<extension point="xbmc.addon.repository" name="Discave Repositorio">
-		<info compressed="false">http://raw.github.com/discave/discave.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/discave/discave.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/discave/discave.repo/master/repo/</datadir>
+		<info compressed="false">http://raw.github.com/AceBoxPT/repository/master/repo/addons.xml</info>
+		<checksum>http://raw.github.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/AceBoxPT/repository/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>DiscaveHB Repo</summary>
-		<description>DiscaveHB Repositorio</description>
-		<disclaimer></disclaimer>
+		<summary>AceBoxPT Repo</summary>
+		<description>AceBox Repositorio</description>
+		<disclaimer>www.acebox.pt</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
