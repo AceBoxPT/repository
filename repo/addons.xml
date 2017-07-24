@@ -15,52 +15,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aceboxstreams" name="ACEBOX STREAMS" version="0.0.9" provider-name="MikeAngel">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Obrigado, Mike Angel! Este addon Ã© uma modificaÃ§Ã£o do original para ser integrada na AceBox<br />  </summary>
-        <description>Carrega listas de canais de TV em formato M3U e com XML</description>
-    </extension>
-</addon>
-
-<addon id="plugin.video.aceboxtv"
-       name="AceBoxTV"
-       version="2.0"
-       provider-name="MikeAngel">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.livestreamer" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary>Obrigado, Mike Angel! <br />  </summary>
-        <description>Este addon Ã© uma modificaÃ§Ã£o do original para ser integrada na AceBox. Carrega listas TV de resultados da Google ...</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.AniPT"
        name="AniPT"
        version="1.0"
@@ -92,29 +46,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.apocalypse" version="1.5" name="[B][COLOR red]A[/COLOR][COLOR orange]po[/COLOR][COLOR yellow]ca[/COLOR][COLOR white]lypse[/COLOR][/B]" provider-name="MikeAngel">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLOR red]Apocalypse[/COLOR]</summary>
-		<description lang="en">[COLOR white]AceBoxPT[/COLOR]
-[COLOR orange]You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation,[/COLOR]
-
-[COLOR orange]Disclaimer:[/COLOR]
-
-[COLOR white]The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider[/COLOR]</description>
-		<disclaimer lang="en">[COLOR lightcyan]The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.[/COLOR]</disclaimer>
-		<platform>all</platform>
-		<news>[COLOR deepblue]Enjoy the Future and Share[/COLOR]</news>
-	</extension>
-</addon>
-
 <addon
 	id="plugin.video.arenavisionezy"
 	name="ArenaVision EZY"
@@ -144,17 +75,20 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.2.4" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.3.16" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.mrknow.urlresolver" version="2016.10.30.2" />
-		<import addon="script.module.liveresolver" version="0.1.47" />
+		<import addon="plugin.video.youtube" version="5.2.1"/>
+		<import addon="script.module.pyxbmct" version="1.1.4"/>
+		<import addon="script.mrknow.urlresolver" version="2017.03.30.1"/>
+		<import addon="script.module.liveresolver" version="0.1.47"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
-		<import addon="script.module.requests" version="2.9.1" />
-		<import addon="script.module.nanscrapers" verion="0.5.1" />
-		<import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.nanscrapers" version="0.5.12"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+		<import addon="script.module.xmltodict" version="0.9.0"/>
+		<import addon="script.module.m3u8" version="0.2.10"/>
+		<import addon="script.module.python.koding.aio" version="0.4"/>
 		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -164,10 +98,8 @@
 		<summary lang="en">Bob</summary>
 		<description lang="en">Bob - Unrestricted. I Am Not A Dev... I Am Bob</description>
 		<platform>all</platform>
-		<forum>http://noobsandnerds.com/support</forum>
+		<forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
 		<website>www.noobsandnerds.com</website>
-		<news></news>
-		<ref>35c3c72734f09f1136e9493e9d91c57f</ref>
 		<video_guide>y0w8zIH4lOY</video_guide>
 		<video_preview>WdKIzajiBBI</video_preview>
 	</extension>
@@ -291,6 +223,78 @@ em procura livre na internet.!!
   </extension>
 </addon>
 
+<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.13" provider-name="OpenELEQ, Midraal">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="repository.q" version="0.0.0.1"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.futures" version="2.2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]">
+	</extension>
+	<extension point="kodi.context.item" library="context_toggle.py">
+		<provides>executable</provides>
+			<item>
+				<label>Preferred toggle</label>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_movie.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
+				<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_tvshow.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
+				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_live.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
+				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
+			</item>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
+		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
+		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
+		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberen het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+		<supportedcontent>
+			<content>movies</content>
+			<content>tvshows</content>
+			<content>episodes</content>
+			<content>musicvideos</content>
+			<content>music</content>
+			<content>livetv</content>
+		</supportedcontent>
+		<genre>movies,tv,music,livetv</genre>
+		<!--<video_guide>yt-id</video_guide>
+		<video_preview>yt-id</video_preview>-->
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=17118</forum>
+		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/plugin.video.metalliq/</source>
+		<email>OpenELEQ@gmail.com</email>
+		<news>Added imdb option to parsed-tvshow-add-to-library path / Added setting to install custom players / Fixed tmdb movie search</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.nantuts" name="NaN Tutorials" version="0.0.1" provider-name="noobsandnerds, coldkeys">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -349,6 +353,22 @@ em procura livre na internet.!!
   </extension>
 </addon>
 
+<addon id="plugin.video.sportsdevil.launcher" name="SportsDevil Launcher" version="0.2.1" provider-name="noobsandnerds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil REFRESH</summary>
+    <description lang="en">This will install the latest versions of SportsDevil and clean any old data that may be stopping the addon from opening certain pages. As SportsDevil has no official repository different people have taken it upon themselves to upload newer versions of the addon to their repo's. Due to this there is always a chance an update may break a previously working version so this addon stores a backup of your existing SportsDevil so you can always revert back if needed.</description>
+    <platform>all</platform>
+    <broken>Check Add-on Portal for latest versions of SD, as of July 2017 nobody seems to be maintaining SportsDevil but have a google and you may be lucky and find a working version.</broken>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvpor"
        name="TV Portuguesa"
        version="0.5.7"
@@ -402,31 +422,6 @@ O addon apenas inclui streams oficiais.</description>
         <screenshot>resources/art/screenshots/screenshot-02.png</screenshot>
         <screenshot>resources/art/screenshots/screenshot-03.png</screenshot>
     </assets>
-  </extension>
-</addon>
-
-<addon id="program.plexus"
-       name="Plexus"
-       version="0.1.7b"
-       provider-name="enen92, TVAddons, RonnieHD">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>executable</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>SopCast and AceStream for Kodi</summary>
-    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
-    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
-    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
-	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
-   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -503,8 +498,28 @@ O addon apenas inclui streams oficiais.</description>
 	</extension>
 </addon>
 
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.6" provider-name="noobsandnerds">
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.1" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+	        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+	        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+		</dir>
+		<dir>
+	        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
