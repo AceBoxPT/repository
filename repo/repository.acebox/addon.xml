@@ -1,10 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repositorio.acebox" name="AceBox Repo" version="2.0" provider-name="AceBoxPT">
-	<extension point="xbmc.addon.repository" name="Repositorio AceBox">
-	
-	<dir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.acebox" name="AceBox Repo" version="2.0" provider-name="AceBoxPT">
+	<extension point="xbmc.addon.repository" name="Repository AceBoxPT">
+		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/AceBoxPT/master/zips/addons.xml.md5</checksum>
+			<checksum>https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/</datadir>
 		</dir>
 		<dir>
@@ -13,28 +12,15 @@
 	        <datadir zip="true">https://github.com/AceBoxPT/dandymedia/raw/master/repo</datadir>
 		</dir>
 		<dir>
+			<info compressed="false">https://github.com/AceBoxPT/repository.elysium/raw/master/elysium.xml</info>
+			<checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+		</dir>
+		<dir>
 	        <info compressed="true">https://raw.githubusercontent.com/AceBoxPT/catchup4kodi/master/zips/addons.xml</info>
 	        <checksum>https://raw.githubusercontent.com/catchup4kodi/AceBoxPT/master/zips/addons.xml.md5</checksum>
 	        <datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/catchup4kodi/master/zips/</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://github.com/AceBoxPT/repository.elysium/raw/master/elysium.xml</info>
-			<checksum>https://github.com/AceBoxPT/repository.elysium/raw/master/elysium.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/AceBoxPT/repository.elysium/master/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository.bob/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository.bob/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository.bob/master/zips/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-		
-		
-		
 		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/</datadir>
@@ -46,4 +32,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
