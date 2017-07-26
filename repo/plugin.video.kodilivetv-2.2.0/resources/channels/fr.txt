@@ -1,0 +1,84 @@
+#EXTINF:-1 tvg-logo="0202.png",[COLOR orange]TF1[/COLOR]
+opus-$$tf1
+#EXTINF:-1 tvg-logo="0204.png",[COLOR orange]France 2[/COLOR]
+opus-$$2004
+#EXTINF:-1 tvg-logo="0205.png",[COLOR orange]France 3[/COLOR]
+opus-$$2008
+#EXTINF:-1 tvg-logo="0221.png",[COLOR orange]France 4[/COLOR]
+opus-$$2009
+#EXTINF:-1 tvg-logo="0237.png",[COLOR orange]France 5[/COLOR]
+opus-$$2010
+#EXTINF:-1 tvg-logo="0226.png",[COLOR orange]France O[/COLOR]
+opus-$$2015
+#EXTINF:-1 tvg-logo="0208.png",[COLOR orange]M6[/COLOR]
+opus-$$m_6_hd
+#EXTINF:-1 tvg-logo="0239.png",[COLOR orange]Cartoon Network[/COLOR]
+opus-$$cartoon_network
+#EXTINF:-1 tvg-logo="0214.png",[COLOR orange]Arte FR[/COLOR]
+opus-$$arte
+#EXTINF:-1 tvg-logo="0231.png",[COLOR orange]RMC Decouverte[/COLOR]
+http://streaming-hub.com/stream/rmc.m3u8
+#EXTINF:-1 tvg-logo="0228.png",[COLOR orange]L'equipe 21[/COLOR]
+opus-$$equipe_tv
+#EXTINF:-1 tvg-logo="0229.png",[COLOR orange]6TER[/COLOR]
+opus-$$6_ter
+#EXTINF:-1 tvg-logo="0232.png",[COLOR orange]Chérie[/COLOR]
+opus-$$cherie_hd
+#EXTINF:-1 tvg-logo="0230.png",[COLOR orange]N23[/COLOR]
+opus-$$numero_23
+#EXTINF:-1 tvg-logo="0210.png",[COLOR orange]RTS 1[/COLOR]
+opus-$$2034
+#EXTINF:-1 tvg-logo="0212.png",[COLOR orange]RTS 2[/COLOR]
+opus-$$2035
+#EXTINF:-1 tvg-logo="0218.png",[COLOR orange]TMC[/COLOR]
+opus-$$tmc
+#EXTINF:-1 tvg-logo="0227.png",[COLOR orange]HD1[/COLOR]
+opus-$$hd_1
+#EXTINF:-1 tvg-logo="rtc.png",[COLOR orangered]RTC[/COLOR]
+http://media.webtvlive.eu/rtc/_definst_/mp4:live_720p.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="nrj_tv.png",[COLOR orange]NRJ TV[/COLOR]
+http://rtmp.infomaniak.ch:1935/livecast/energytv/playlist.m3u8
+#EXTINF:-1 tvg-logo="0236.png",[COLOR orange]France 24[/COLOR]
+http://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8
+#EXTINF:-1 tvg-logo="tv5.png",[COLOR orange]TV5 Monde[/COLOR]
+http://v3fbs247hls-i.akamaihd.net/hls/live/219079/v3fbs247hls/v3fbs247hls_1_1.m3u8|X-Forwarded-For=94.177.240.81
+#EXTINF:-1 tvg-logo="0223.png",[COLOR orangered]I Télé[/COLOR]
+http://hls-live-m6-l3.canal-plus.com/live/hls/itele-clair-hd-andr7/and-hd-clair/index.m3u8
+#EXTINF:-1 tvg-logo="france_info.png",[COLOR orangered]France Info[/COLOR]
+http://live.francetv.fr/simulcast/France_Info/hls_v1/index.m3u8
+#EXTINF:-1 tvg-logo="antenne_reunion.png",[COLOR orange]Antenne Réunion[/COLOR]
+http://41.213.128.117:1935/antennelive/smil:antennereunion.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="enorme_tv.png",[COLOR orange]Enorme TV[/COLOR]
+http://ec.playmedia.fr/enorme-tv/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="tva.png",[COLOR orange]TVA MONTREAL[/COLOR]
+http://tva_chaine_uls-lh.akamaihd.net/i/chaine_tva_1@125892/master.m3u8
+#EXTINF:-1 tvg-logo="bfm_tv.png",[COLOR orange]BFMTV[/COLOR]
+http://bfmlive2-i.akamaihd.net/hls/live/214427/bfmtv/04.m3u8
+#EXTINF:-1 tvg-logo="es1.png",[COLOR orange]Eurosport 1 France[/COLOR]
+http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist_1800.m3u8
+#EXTINF:-1 tvg-logo="notele.png",[COLOR orange]NOtélé[/COLOR]
+http://streaming06.axeweb.be/live//direct.stream/chunklist_w1993793147.m3u8
+#EXTINF:-1 tvg-logo="matele.png",[COLOR orange]MATELE[/COLOR]
+http://streaming06.axeweb.be:1935/matele_live/_definst_/live.stream/media_w366261202.m3u8
+#EXTINF:-1 tvg-logo="telesambre.png",[COLOR orange]Telesambre[/COLOR]
+http://vm109.imust.org:1935/live/telesambre-live/playlist.m3u8
+#EXTINF:-1 tvg-logo="dobbit.png",[COLOR orangered]Dobbit TV[/COLOR]
+http://193.110.252.20:1935/live/dobbittv.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="canal_2.png",[COLOR orange]Canal 2 Info[/COLOR]
+http://canal2-p.cdn.hexaglobe.net/streaming/canal2_c2info/canal2info_fre_480p.sdp.m3u8
+#EXTINF:-1 tvg-logo="canal_c.png",[COLOR orange]Canal C[/COLOR]
+http://streaming06.axeweb.be:1935/canalc_live/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="tvpi.png",[COLOR orange]TVPI Bayonne[/COLOR]
+rtmp://streamcast.oc3n.net:1935/TVPI/myStream700.sdp
+#EXTINF:-1 tvg-logo="alsace_20.png",[COLOR orange]Alsace 20[/COLOR]
+http://live.alsace20.fr/live/alsace20/ngrp:alsace20_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="bfm_tv.png",[COLOR orange]BFM TV[/COLOR]
+http://bfmlive2-i.akamaihd.net/hls/live/214427/bfmtv/04.m3u8
+#EXTINF:-1 tvg-logo="bfm_bussiness.png",[COLOR orange]BFM business[/COLOR]
+http://bfmlive-i.akamaihd.net/hls/live/214272/bfmbusiness/04.m3u8
+#EXTINF:-1 tvg-logo="tvm3.png",[COLOR orangered]TVM 3[/COLOR]
+rtmp://rtmp.infomaniak.ch/livecast/tvm3
+#EXTINF:-1 tvg-logo="la_chaine_normande.png",[COLOR orange]LA CHAÎNE NORMANDE[/COLOR]
+rtmp://live.lachainenormande.fr:80/live/lcn/livestream
+#EXTINF:-1 tvg-logo="gong.png",[COLOR orange]GONG[/COLOR]
+rtsp://ec.playmedia.fr:1935/gong-base/live

@@ -1,0 +1,46 @@
+#EXTINF:-1 tvg-logo="austria_24.png",[COLOR orange]Austria 24[/COLOR]
+rtmp://streaming.austria24.tv/live/stream_360p
+#EXTINF:-1 tvg-logo="0068.png",[COLOR orange]Deutsche Welle[/COLOR]
+http://www.metafilegenerator.de/DWelle/tv/ios/master.m3u8
+#EXTINF:-1 tvg-logo="0107.png",[COLOR orangered]NDR HD[/COLOR]
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_nds@119224/index_3776_av-b.m3u8
+#EXTINF:-1 tvg-logo="0106.png",[COLOR orange]NDR[/COLOR]
+http://ndr_fs-lh.akamaihd.net/i/ndrfs_mv@119226/index_1992_av-p.m3u8
+#EXTINF:-1 tvg-logo="0018.png",[COLOR orangered]WDR HD[/COLOR]
+http://wdr_fs-lh.akamaihd.net/i/wdrfs_weltweit@112033/index_3776_av-b.m3u8
+#EXTINF:-1 tvg-logo="0026.png",[COLOR orangered]hr HD[/COLOR]
+http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/index_3128_av-p.m3u8
+#EXTINF:-1 tvg-logo="0025.png",[COLOR orange]hr[/COLOR]
+http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/index_1628_av-p.m3u8
+#EXTINF:-1 tvg-logo="0063.png",[COLOR orangered]Tagesschau24[/COLOR]
+http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
+#EXTINF:-1 tvg-logo="0100.png",[COLOR orangered]blizz TV HD[/COLOR]
+https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/smil:5726-mbr.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-logo="aktuelle.png",[COLOR orangered]TV Aktuell[/COLOR]
+http://tvaktuellr.iptv-playoutcenter.de:1935/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="elbe_kanal.png",[COLOR orange]Elbe Kanal[/COLOR]
+rtmp://62.113.210.250/medienasa-live/elbe_high
+#EXTINF:-1 tvg-logo="augsburg_Tv.png",[COLOR orangered]Augsburg TV[/COLOR]
+rtmp://augsburgtv.iptv-playoutcenter.de:1935/augsburgtv/augsburgtv.stream_1
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orangered]München TV[/COLOR]
+rtmp://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Dresden TV[/COLOR]
+rtmp://video07.kanal8.de/dresdenfernsehenlive/myStream.sdp
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Halle TV[/COLOR]
+rtmp://62.113.210.250/medienasa-live/tvhalle_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Leipzig TV[/COLOR]
+rtmp://video61.kanal8.de/leipzigfernsehenlive/myStream.sdp
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Ok Dessau[/COLOR]
+rtmp://62.113.210.250/medienasa-live/ok-dessau_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Ok Magdeburg[/COLOR]
+rtmp://62.113.210.250/medienasa-live/ok-magdeburg_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Ok Salzwedel[/COLOR]
+rtmp://62.113.210.250/medienasa-live/ok-salzwedel_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Ok Stendal[/COLOR]
+rtmp://62.113.210.250/medienasa-live/ok-stendal_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Ok Wernigerode[/COLOR]
+rtmp://62.113.210.250/medienasa-live/ok-wernigerode_high
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]RTL Tele Letzebourg[/COLOR]
+rtmp://wowza01.newmedia.lu/channel1/live
+#EXTINF:-1 tvg-logo="tv.png",[COLOR orange]Tele Bärn[/COLOR]
+http://rtmp.infomaniak.ch/livecast/barntele/playlist.m3u8

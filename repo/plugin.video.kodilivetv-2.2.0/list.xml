@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<version>
+    <tag>Aggiornati canali Mediaset (ip/vpn it). Aggiunta possibilità di inserire Playlist di Youtube nel Playlist Manager. Aggiunto comando per cancellare cache dei file xml nel menu contestuale; cache dei file xml e delle liste regolata a 30 ore. Aggiunto comando nel menu cantestuale per cancellare la cache di singole liste. Aggiunta possibilità di aggiungere xml remoti tramite xml locale (consultare il canale KLTV su Telegram per maggiori informazioni). Riduzione durata cache liste m3u (6 ore). Supporto Play list Youtube (2). Aggiunti sezione canali SRF.ch, fixati canali Opus inglesi. Aggiornata lista canali VPN/IP Italia (2). Aggiunta sezione RTS.ch in canali francesi. Aggiornati canali francesi. Aggiunta sezione RSI.ch in canali italiani. Aggiornato url kodilive.eu (https). Correzione nomi liste Watch App. Aggiornamento canali Italiani (fix per canali opus.re)</tag>
+	<version>100485</version>
+        <url>https://kodilive.eu/update/plugin.video.kodilivetv.zip</url>
+</version>
