@@ -1,1 +1,0 @@
-[{"url": "https://pastebin.com/raw/ND5895gi", "fanart": ".\\fanart.jpg", "title": "J2MF4"}]
