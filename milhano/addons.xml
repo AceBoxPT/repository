@@ -102,27 +102,6 @@ em procura livre na internet.!!
   </extension>
 </addon>
 
-<addon id="plugin.video.RSIPTVFUT"
-       name="RSIPTV Football Highlights"
-       version="0.0.1"
-       provider-name="RSIPTV">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="1.0.5"/>
-		<import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<language>en</language>
-		<platform>all</platform>
-		<summary lang="en">RSIPTV Football Highlights addon for Kodi</summary>
-		<description lang="en">RSIPTV Football Highlights</description>
-		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals</disclaimer>
-    </extension>
-</addon>
-
 <addon id="plugin.video.rtpplay" name="RTP Play" version="2.6.0" provider-name="enen92">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -254,42 +233,6 @@ O addon apenas inclui streams oficiais.</description>
         <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.VipKids"
-       name="Vip Secret Kids"
-       version="1.0.1"
-       provider-name="Vip Secret">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Vip Secret Kids</summary>
-    <description>
-        Addon Vip Secret Kids : Todos os links disponibilizados no Addon estao disponiveis
-em procura livre na internet.
-
-
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.vipsecret"
