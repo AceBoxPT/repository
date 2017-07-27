@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.karmamusic" name="Karma" version="1.0.1" provider-name="SchisM">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en">Listen to Free Music the Zen way...</summary>
+			<description lang="en">Note: Due to security protocols on htpps website this addon may not work on Kodi versions lower than Kodi 17.x</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+
+			<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.mp3streams"
+       name="MP3 Streams"
+       version="1.2.4"
+       provider-name="kinkin, art by Marquerite">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.mutagen"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio</provides>
+    </extension>
+
+	<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>A music streaming collection</summary>
+        <description>Browse and stream your favourite songs and albums</description>
+    </extension>
+
+</addon>
+
 <addon id="plugin.program.AceBoxWIZARD" name="AceBox Wizard" version="0.7" provider-name="AceBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,38 +54,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">AceBox Wizard</summary>
     <description lang="en">AceBox Wizard allows you to install the latest AceBox Builds.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.aceboxtv"
-       name="AceBoxTV"
-       version="2.0"
-       provider-name="MikeAngel">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.livestreamer" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary>Obrigado, Mike Angel! Este addon Ã© uma modificaÃ§Ã£o do original para ser integrada na AceBox<br />  </summary>
-        <description>Carrega listas ALX TV ...</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -189,6 +200,45 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.football.today" name="Football Today" version="3.0.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.itunestube" name="Itunes Tube" version="1.0.0" provider-name="AddonBrasil">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Videos musicais via Youtube</summary>
+        <language></language>
+        <description lang="en">Veja os videos das mÃºsicas do iTunes via Youtube</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.2.0" provider-name="Vania Rupeni">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -328,6 +378,23 @@ em procura livre na internet.!!
 	</extension>
 </addon>
 
+<addon id="plugin.video.microsoftvirtualacademy" name="Microsoft Virtual Academy" version="1.0.0" provider-name="Ryan Conrad">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.beautifulsoup" version="3.2.0" />
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Watch videos from Microsoft Virtual Academy</summary>
+		<description>Watch videos from Virtual Academy https://mva.microsoft.com/</description>
+	</extension>
+</addon>
+
 <addon id="plugin.video.nantuts" name="NaN Tutorials" version="0.0.1" provider-name="noobsandnerds, coldkeys">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -344,6 +411,60 @@ em procura livre na internet.!!
 		<forum>n/a</forum>
 		<website>n/a</website>
 	</extension>
+</addon>
+
+<addon id="plugin.video.p2p-streams"
+       name="p2p-streams"
+       version="1.2.0b"
+       provider-name="enen92,fightnight">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.pytz" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream</summary>
+    <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
+    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleiÃ§Ã£o! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. PÃ¡gina do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
+    <description lang="nl">Acestream en Sopcast in jouw favoriete media center. Kijk peer-to-peer streams in Kodi zonder de noodzaak voor externe spelers. Project pagina: https://github.com/enen92/P2P-Streams-Kodi/</description>
+    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessitÃ  di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
+    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo acessÃ­vel a partir deste addon. Os autores nÃ£o tÃªm qualquer afiliaÃ§Ã£o com nenhum dos sites utilizados por este addon. O addon nÃ£o contem nenhuma ferramenta de tracking.</disclaimer>
+    <disclaimer lang="nl">De auteurs houden of delen niets van de inhoud die u kunt bekijken met behulp van deze addon. De auteurs hebben geen banden met welke leverancier van inhoud dan ook. Deze addon houdt geen gegevens bij van zijn gebruikers.</disclaimer>
+    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non Ã¨ affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
+    <forum>http://forum.kodi.tv/showthread.php?tid=201894</forum>
+    <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules-</source>
+    <website>https://code.google.com/p/p2p-strm/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.p2psport"
+	name="[COLOR green]p2psport[/COLOR]"
+	version="0.1.4"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch p2p sports in Kodi</summary>
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
+  </extension>
 </addon>
 
 <addon id="plugin.video.poseidon" version="1.0.7" name=" Poseidon" provider-name="Soulless">
@@ -395,6 +516,27 @@ em procura livre na internet.!!
     <website>http://www.ratotv.top/</website>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.RSIPTVFUT"
+       name="RSIPTV Football Highlights"
+       version="0.0.1"
+       provider-name="RSIPTV">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="1.0.5"/>
+		<import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<language>en</language>
+		<platform>all</platform>
+		<summary lang="en">RSIPTV Football Highlights addon for Kodi</summary>
+		<description lang="en">RSIPTV Football Highlights</description>
+		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals</disclaimer>
+    </extension>
 </addon>
 
 <addon id="plugin.video.rtpplay" name="RTP Play" version="2.6.0" provider-name="enen92">
@@ -463,6 +605,40 @@ em procura livre na internet.!!
 	</extension>
 </addon>
 
+<addon
+  id="plugin.video.SportsDevil"
+  version="ZNL2017.2017.2017.07.15.NL1"
+  name="SportsDevil"
+  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="script.module.livestreamer" />
+   <!--<import addon="script.video.F4mProxy" />
+   <import addon="plugin.video.f4mTester" />-->
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different ad-financed sports streaming sites</summary>
+    <description>Play videos of different ad-financed sports streaming sites.
+
+SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
+
+For updates check the readme.
+    </description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.sportsdevil.launcher" name="SportsDevil Launcher" version="0.2.1" provider-name="noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -500,6 +676,42 @@ O addon apenas inclui streams oficiais.</description>
         <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.VipKids"
+       name="Vip Secret Kids"
+       version="1.0.1"
+       provider-name="Vip Secret">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Vip Secret Kids</summary>
+    <description>
+        Addon Vip Secret Kids : Todos os links disponibilizados no Addon estao disponiveis
+em procura livre na internet.
+
+
+    </description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.vipsecret"
@@ -569,6 +781,19 @@ em procura livre na internet.
         <screenshot>resources/art/screenshots/screenshot-03.png</screenshot>
     </assets>
   </extension>
+</addon>
+
+<addon id="repository.Beaubrepo" name="Beau B repository" version="1.3" provider-name="Beau b">
+	<extension point="xbmc.addon.repository" name="Beau B repository">
+		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml</info>
+		<checksum>http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.bob" name="Bob's Testing Repository" version="1.2" provider-name="Team Bob">
@@ -700,6 +925,22 @@ em procura livre na internet.
         <description>De meest gebruikte add-ons vindt u in deze repository.</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.3" provider-name="Vip Secrettv">
+	<extension point="xbmc.addon.repository" name="Vip Secrettv">
+		<info compressed="false">http://secretv.j2mf4.com/repo/addons.xml</info>
+		<checksum>http://secretv.j2mf4.com/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://secretv.j2mf4.com/repo/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Vip Secrettv</summary>
+		<description>
+Vip Secrettv Repository
+		 </description>
+
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.wolfpack" name="[B][COLOR ghostwhite]W[/COLOR][COLOR red]OLFPAC[/COLOR][COLOR ghostwhite]K[/COLOR][/B]" version="1.2" provider-name="Wolfpack">

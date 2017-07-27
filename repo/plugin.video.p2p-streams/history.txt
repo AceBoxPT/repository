@@ -1,0 +1,4 @@
+Direct ID ( acestream://c39db61fd585ebfa446983d0af9d9d637df9678c)|acestream://c39db61fd585ebfa446983d0af9d9d637df9678c|1|C:\Users\hmemar\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+acestream Link2 (P2P)|acestream://6e5016bc0258b062c0610e658615369feb8000a5|1|C:\Users\hmemar\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+acestream Link1 (P2P)|acestream://8c0abceedf2360d64980aa34850fc681d2a5ddcc|1|C:\Users\hmemar\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
+Direct ID ( acestream://8b9a6589d2a6cd4adb8be47eae7954c6b53c26ce)|acestream://8b9a6589d2a6cd4adb8be47eae7954c6b53c26ce|1|C:\Users\hmemar\AppData\Roaming\Kodi\addons\plugin.video.p2p-streams\resources\art\acelogofull.jpg
