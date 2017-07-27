@@ -221,24 +221,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.itunestube" name="Itunes Tube" version="1.0.0" provider-name="AddonBrasil">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.youtube" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Videos musicais via Youtube</summary>
-        <language></language>
-        <description lang="en">Veja os videos das mÃºsicas do iTunes via Youtube</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.2.0" provider-name="Vania Rupeni">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -378,23 +360,6 @@ em procura livre na internet.!!
 	</extension>
 </addon>
 
-<addon id="plugin.video.microsoftvirtualacademy" name="Microsoft Virtual Academy" version="1.0.0" provider-name="Ryan Conrad">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup" version="3.2.0" />
-	</requires>
-
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>Watch videos from Microsoft Virtual Academy</summary>
-		<description>Watch videos from Virtual Academy https://mva.microsoft.com/</description>
-	</extension>
-</addon>
-
 <addon id="plugin.video.nantuts" name="NaN Tutorials" version="0.0.1" provider-name="noobsandnerds, coldkeys">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -443,27 +408,6 @@ em procura livre na internet.!!
     <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules-</source>
     <website>https://code.google.com/p/p2p-strm/</website>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.p2psport"
-	name="[COLOR green]p2psport[/COLOR]"
-	version="0.1.4"
-	provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.mechanize" version="0.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch p2p sports in Kodi</summary>
-    <platform>all</platform>
-    <forum>forums.tvaddons.ag</forum>
   </extension>
 </addon>
 
@@ -516,27 +460,6 @@ em procura livre na internet.!!
     <website>http://www.ratotv.top/</website>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.RSIPTVFUT"
-       name="RSIPTV Football Highlights"
-       version="0.0.1"
-       provider-name="RSIPTV">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="1.0.5"/>
-		<import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<language>en</language>
-		<platform>all</platform>
-		<summary lang="en">RSIPTV Football Highlights addon for Kodi</summary>
-		<description lang="en">RSIPTV Football Highlights</description>
-		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals</disclaimer>
-    </extension>
 </addon>
 
 <addon id="plugin.video.rtpplay" name="RTP Play" version="2.6.0" provider-name="enen92">
@@ -676,42 +599,6 @@ O addon apenas inclui streams oficiais.</description>
         <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.VipKids"
-       name="Vip Secret Kids"
-       version="1.0.1"
-       provider-name="Vip Secret">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Vip Secret Kids</summary>
-    <description>
-        Addon Vip Secret Kids : Todos os links disponibilizados no Addon estao disponiveis
-em procura livre na internet.
-
-
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.vipsecret"
