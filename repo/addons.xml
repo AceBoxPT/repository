@@ -1080,6 +1080,20 @@ Other:
   </extension>
 </addon>
 
+<addon id="repositorio.milhanobox" name="[COLOR yellow]repositorio[/COLOR] [COLOR blue]M[/COLOR][COLOR red]ilhano[/COLOR] (AceBox)" version="1.2" provider-name="Milhano-AceBox">
+	<extension point="xbmc.addon.repository" name="Repositorio Milhano Box">
+		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Milhano Repo</summary>
+		<description>Repositorio de Milhano</description>
+		<disclaimer>Conjunto de procuras efectuadas pela Google...</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.Beaubrepo" name="Beau B repository" version="1.3" provider-name="Beau b">
 	<extension point="xbmc.addon.repository" name="Beau B repository">
 		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml</info>
