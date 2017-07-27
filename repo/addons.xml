@@ -271,6 +271,24 @@ em procura livre na internet.!!
   </extension>
 </addon>
 
+<addon id="plugin.video.mdm4u" name="M4U" version="2.1.1" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.muckys.common"/>
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream content From The m4ufree.info WebSite</summary>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml In File Manager. Stream Content From The m4ufree.info WebSite</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.13" provider-name="OpenELEQ, Midraal">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -558,6 +576,42 @@ For updates check the readme.
     <description lang="en">This will install the latest versions of SportsDevil and clean any old data that may be stopping the addon from opening certain pages. As SportsDevil has no official repository different people have taken it upon themselves to upload newer versions of the addon to their repo's. Due to this there is always a chance an update may break a previously working version so this addon stores a backup of your existing SportsDevil so you can always revert back if needed.</description>
     <platform>all</platform>
     <broken>Check Add-on Portal for latest versions of SD, as of July 2017 nobody seems to be maintaining SportsDevil but have a google and you may be lucky and find a working version.</broken>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tuga.metalforce"
+       name="[COLOR gold][B]TUGA[/B][/COLOR][COLOR blue][B][/B][/COLOR][COLOR red][B]METALFORCE[/B][/COLOR]"
+       version="0.1.3"
+       provider-name="Milhano">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>HEAVY METAL</summary>
+    <description>
+        Todos os links disponibilizados no Addon estao disponiveis
+em procura livre na internet.
+
+    </description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -950,6 +1004,31 @@ Other:
   </extension>
 </addon>
 
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, TVAddons, RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repositorio.milhanobox" name="[COLOR yellow]repositorio[/COLOR] [COLOR blue]M[/COLOR][COLOR red]ilhano[/COLOR] (AceBox)" version="1.2" provider-name="Milhano-AceBox">
 	<extension point="xbmc.addon.repository" name="Repositorio Milhano Box">
 		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/milhano/addons.xml</info>
@@ -960,6 +1039,20 @@ Other:
 		<summary>Milhano Repo</summary>
 		<description>Repositorio de Milhano</description>
 		<disclaimer>Conjunto de procuras efectuadas pela Google...</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.addonBrasil" name="AddonBrasil Repository" version="0.0.2" provider-name="AddonBrasil">
+	<extension point="xbmc.addon.repository" name="AddonBrasil Repository">
+		<info compressed="false">http://raw.github.com/addonBrasil/addonBrasil-kodi/master/addons.xml</info>
+		<checksum>http://raw.github.com/addonBrasil/addonBrasil-kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/addonBrasil/addonBrasil-kodi/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RepositÃ³rio AddonBrasil</summary>
+		<description>RepositÃ³rio de addons brasileiros AddonBrasil</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1094,6 +1187,8 @@ Other:
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="repository.quasar" name="Quasar Repository" version="0.9.1" provider-name="scakemyer"><requires></requires><extension point="xbmc.addon.repository" name="Quasar Repository"><info compressed="false">http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml</info><checksum>http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml.md5</checksum><datadir zip="true">http://localhost:65251/repository/scakemyer/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Quasar Updates</summary></extension></addon>
 
 <addon id="repository.tvaddons.nl" name=" TV Addons Nederland" version="7.2" provider-name="TVAddons.nl">
     <extension point="xbmc.addon.repository" name=" TV Addons Repository">
@@ -1306,6 +1401,59 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<description lang="nl">Dit script biedt meerdere mogelijkheded om online content weer te geven in skins en bevat ook een complete MovieDB browser inclusief info dialogen voor verscheidene media types. Gebruikte diensten zijn themoviedb.org, theaudiodb.org, rottentomatoes.com, Trakt.TV, omdbapi.com en nog veel meer. Zodra info gevonden is kan [COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay die doorgeven aan [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] om te pogen af te spelen of aan uw kodi-bibliotheek toe te voegen. Vereist skin implementatie voor de meeste functies. Gebruikt [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] voor afspeel en bibliotheek functies.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.3" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0"/>
+	</requires>
+
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
+            </item>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
+                <description>PVR artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
+                    [Window.IsActive(MyPVRChannels.xml) |
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
+            </item>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
+                <description>Music artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
+            </item>
+        </menu>
+	</extension>
+
+    <extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+    </extension>
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper service for Kodi skins</summary>
+        <description>Helper service for Kodi skins</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.service</source>
 	</extension>
 </addon>
 
