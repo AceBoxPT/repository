@@ -154,10 +154,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.7.9" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.7.1"/>
+        <import addon="script.video.F4mProxy" version="2.7.9"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -219,8 +219,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.live.RSIPTV"
-       name="RSIPTV"
-       version="2.7.9"
+       name="[COLOR blue][B]RS[/B][/COLOR][COLOR white][B]IPTV[/B][/COLOR]"
+       version="3.0.0"
        provider-name="RS_IPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -242,9 +242,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 
  <extension point="xbmc.addon.repository" name="repository.rsiptv">
-		<info compressed="false">https://rsrepo.000webhostapp.com/repo/addons.xml</info>
-		<checksum>https://rsrepo.000webhostapp.com/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://rsrepo.000webhostapp.com/repo/zip/</datadir>
+		<info compressed="false">http://secretv.j2mf4.com/RSREPO/addons.xml</info>
+		<checksum>http://secretv.j2mf4.com/RSREPO/addons.xml.md5</checksum>
+		<datadir zip="true">http://secretv.j2mf4.com/RSREPO/zip/</datadir>
 	</extension>
 
   <extension point="xbmc.addon.metadata">
