@@ -983,6 +983,24 @@ Other:
   </extension>
 </addon>
 
+<addon id="repository.aceboxpt" name="AceBoxPT Repo" version="3.0" provider-name="AceBoxPT">
+	<extension point="xbmc.addon.repository" name="AceBoxPT Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">www.aceboxstreams.info</summary>
+		<description lang="en">AceBoxPT repository of some favorites coders...</description>
+		<genre>kids,livetv,movies,radio,sports,tvshows,portuguese,uk</genre>
+	</extension>
+</addon>
+
 <addon id="repository.Beaubrepo" name="Beau B repository" version="1.3" provider-name="Beau b">
 	<extension point="xbmc.addon.repository" name="Beau B repository">
 		<info compressed="false">http://wolfpackcrew.co.uk/seeddata/beaubrepo/files/addons.xml</info>
