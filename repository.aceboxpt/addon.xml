@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <addon id="repository.aceboxpt" name="AceBoxPT Repo" version="3.0" provider-name="AceBoxPT">
 	<extension point="xbmc.addon.repository" name="AceBoxPT Repo">
 		<dir>
