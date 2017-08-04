@@ -16,7 +16,7 @@ item_info_build=%s
 #item_info_name=api1
 #item_info_from=page
 #item_info_convert=randomfloat(0,1)
-#item_info_build=https://www.firstonetv.eu/api/?cacheFucker=%s
+#item_info_build=https://www.firstone.tv/api/?cacheFucker=%s
 
 #item_info_name=postData1
 #item_info_from=action=tracking&act=get&c='+cn+'&id='+id
@@ -31,7 +31,7 @@ item_info_build=%s
 item_info_name=api2
 item_info_from=page
 item_info_convert=randomfloat(0,1)
-item_info_build=https://www.firstonetv.eu/api/?cacheFucker=%s
+item_info_build=https://www.firstone.tv/api/?cacheFucker=%s
 
 item_info_name=postData2
 item_info_from=action=hiro&result=get'+
@@ -46,7 +46,7 @@ item_info_build=%s
 item_info_name=api3
 item_info_from=page
 item_info_convert=randomfloat(0,1)
-item_info_build=https://www.firstonetv.eu/api/?cacheFucker=%s
+item_info_build=https://www.firstone.tv/api/?cacheFucker=%s
 
 item_info_name=postData3
 item_info_from=action=hiro&result='+rss+'&time='+time+'&hash='+hash
@@ -65,7 +65,7 @@ item_info_build=%s
 item_info_name=api4
 item_info_from=page
 item_info_convert=randomfloat(0,1)
-item_info_build=https://www.firstonetv.eu/api/?cacheFucker=%s
+item_info_build=https://www.firstone.tv/api/?cacheFucker=%s
 
 item_info_name=postData4
 item_info_from=action=channel&ctoken='+ctoken+'&c='+cn+'&id='+id
