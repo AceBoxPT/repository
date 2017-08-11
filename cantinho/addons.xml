@@ -125,6 +125,20 @@ For updates check the readme.
 	</extension>
 </addon>
 
+<addon id='script.module.torrent.ts' version='0.7.3.4' name='AceStream client' provider-name='1orgar'>
+  <requires>
+    <import addon='xbmc.python' version='2.7.8'/>
+  </requires>
+    <extension point="xbmc.python.script" library="default.py">
+    	<provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib"/>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary>AceStream client</summary>
+  </extension>
+</addon>
+
 <addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
