@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-<category label="30009">
-    <setting id="address" type="ipaddress" label="30001" default="127.0.0.1" />
-    <setting id="port" type="number" label="30002" default="62062" />
-	<setting id="save" type="bool" label="30003" default="false" />
-    <setting id="path" type="folder" label="30004" enable="eq(-1,true)" />
-    <setting id="switch_playback" type="bool" label="30005" default="false" enable="eq(-2,true)" />
-    <setting id="auto_pause_buf" type="bool" label="30006" default="true" enable="true" />
-    <setting id="httpd" type="bool" label="30007" default="true" enable="true" />
-    <setting id="debug" type="bool" label="30008" default="false" enable="true" />
+<category label="Настройки">
+
+    <setting id="ip_addr" type="text" label="2000" default="127.0.0.1" />
+	<setting id="pausable" type="bool" label="2001" default="false" />
+	
+	<setting id="prog" type="text" label="path to execute tsengine" default="" />
+    <setting id="cache" type="text" label="XBMC Cache" default="252420" />
+	<setting id="save" type="bool" label="Сохранять скаченное на диск" default="false" />
+    <setting id="folder" type="folder" label="path to save"/>
+    <setting id="log" type="bool" label="Debug mode"/>
   </category>
+<category label="Пока не работают"> 
+	<setting id="autoexit" type="bool" label="2002" default="false" />
+	<setting id="autobuf" type="bool" label="2003" default="false" />
+ </category>
 </settings>
