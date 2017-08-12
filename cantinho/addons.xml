@@ -35,6 +35,20 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.cantinhox" name="[B][COLOR red]CantinhoX ADULTS ONLY[/B][/COLOR]" version="1.0" provider-name="MikeAngel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cantinho XXX</summary>
+    <description lang="en">Cantinho do Software +18 Adult</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
