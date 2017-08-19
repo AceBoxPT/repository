@@ -200,28 +200,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
-<addon id="plugin.video.ratotv" name="RatoTv" version="2.3.0" provider-name="ratotv.top">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common" version="2.1.1"/>
-    <import addon="plugin.video.youtube" version="2.9.2"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>pt</language>
-    <platform>all</platform>
-    <summary lang="en">Rato TV</summary>
-    <description lang="en">Filmes e series no Kodi em HD. Visita o site oficial em http://www.ratotv.top. Ã‰ necessÃ¡ria conta no site para aceder aos conteÃºdos do addon.</description>
-    <disclaimer lang="en">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo acessÃ­vel a partir deste addon. Os autores nÃ£o tÃªm qualquer afiliaÃ§Ã£o com o site em questÃ£o. O addon nÃ£o contem nenhuma ferramenta de tracking.</disclaimer>
-    <website>http://www.ratotv.top/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.rtpplay" name="RTP Play" version="2.6.0" provider-name="enen92">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
