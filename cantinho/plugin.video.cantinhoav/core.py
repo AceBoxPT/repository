@@ -1,1 +1,0 @@
-[{"url": "http://bit.ly/2sRyjiL", "fanart": ".\\fanart.jpg", "title": "CantinhoAV TV"}]
