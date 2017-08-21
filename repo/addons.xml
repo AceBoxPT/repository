@@ -242,7 +242,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.07.22"
+  version="2017.08.20"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -252,8 +252,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!--<import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />-->
+   <!-- <import addon="script.video.F4mProxy" /> -->
+   <!-- <import addon="plugin.video.f4mTester" /> -->
   </requires>
   <extension
     point="xbmc.python.pluginsource"
