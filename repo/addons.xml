@@ -141,6 +141,28 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
+<addon id="plugin.video.mobdina" name="Mobdina" version="10.17.2017" provider-name="Sweetwork">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver" />
+		<import addon="repository.sweetwork" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movies, Sports, Live TV</summary>
+		<description lang="en">Sweetwork.net Presents Streaming content from the Mobdro android API</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.nantuts" name="NaN Tutorials" version="0.0.1" provider-name="noobsandnerds, coldkeys">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
