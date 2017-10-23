@@ -17,6 +17,28 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.mobdina" name="Mobdina" version="10.17.2017" provider-name="Sweetwork">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver" />
+		<import addon="repository.sweetwork" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movies, Sports, Live TV</summary>
+		<description lang="en">Sweetwork.net Presents Streaming content from the Mobdro android API</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+	</extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="2017.07.22"
@@ -87,6 +109,19 @@ For updates check the readme.
 		<summary lang="en">Cantinho do Software</summary>
 		<description lang="en">CAVTV repository </description>
 		<genre>sports,tvshows,movies,portuguese,uk</genre>
+	</extension>
+</addon>
+
+<addon id="repository.playonmonkey" name="Playonmonkey" version="1.8" provider-name="Playonmonkey">
+	<extension point="xbmc.addon.repository" name="Playonmonkey">
+		<info compressed="false">https://raw.githubusercontent.com/playonmonkey/Gorilla/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/playonmonkey/Gorilla/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/playonmonkey/Gorilla/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Playonmonkeys Repository</summary>
+		<description>Stored add ons by Playonmonkey</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
